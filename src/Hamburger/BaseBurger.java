@@ -12,7 +12,7 @@ public class BaseBurger {
     private double discount;
     private String size;
 
-    BaseBurger(String name, String breadRollType,String meat,double basePrice, String size){
+    BaseBurger(String name, String breadRollType,String meat,double basePrice){
         this.name = name;
         this.breadRollType =  breadRollType;
         this.meat = meat;
